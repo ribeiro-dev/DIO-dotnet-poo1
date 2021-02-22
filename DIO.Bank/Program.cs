@@ -6,7 +6,8 @@ namespace DIO.Bank
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Conta minhaConta = new Conta(TipoConta.PessoaFisca, 0, 0, "Fulano de Tal");
+            Console.WriteLine(minhaConta.ToString());
         }
     }
 }
